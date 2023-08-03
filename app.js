@@ -69,7 +69,7 @@ function showDesc(data, i) {
   display = `<div class="DescriptionBlock container">
     <a href="#" onclick="goToHome(${i})">
       <button class="shadow bg-white btn px-5 py-1 my-4">
-        <img src="../assets/arrow-left (1).svg" alt="" /> Back
+        <img src="assets/arrow-left (1).svg" alt="" /> Back
       </button></a
     >
   
@@ -141,7 +141,7 @@ function MoreInfo(i) {
     <div class="col-12 col-sm-5">
       <div class="search-section mx-0 mx-sm-3 px-sm-0 px-4 w-100">
         <img
-          src="../assets/search.svg"
+          src="assets/search.svg"
           alt=""
           id="search-icon"
           onclick="javascript: displayResults()"
